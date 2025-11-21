@@ -1,5 +1,6 @@
 # PART 1 - Conceptual Questions
 1. Classification Basics
+
 a. Difference between classification and regression
 - Classification predicts a category or class, like “spam or not spam.” It deals with labels.
 - Regression predicts a number, like “house price” or “temperature.” It deals with continuous values.
@@ -18,8 +19,10 @@ c. Definitions of evaluation metrics
 - Recall – Out of all the actual positive items, how many the model was able to find.
 - F1 Score – The balance of precision and recall. Helpful when classes are not balanced.
 - Confusion Matrix – A table that shows correct and wrong predictions for each class (true positive, true negative, false positive, false negative).
+___
 
 2. Logistic Regression
+
 a. Why is logistic regression considered a classification algorithm, not a regression algorithm?
 - Even if the name has “regression,” it produces a probability that is turned into a class label (like yes/no). So it is used for classification tasks, not for predicting a number.
 
@@ -34,8 +37,10 @@ Advantages:
 Disadvantages:
 1. It does not perform well with complex or non-linear data.
 2. It can be sensitive to outliers and noise.
+___
 
 3. K-Nearest Neighbors (KNN)
+
 a. What does it mean that KNN is a non-parametric and lazy learning algorithm?
 - Non-parametric means KNN does not assume a fixed shape for the data. It learns only from the stored points.
 - Lazy learning means it does not train before prediction. It only works when a new point needs to be classified.
