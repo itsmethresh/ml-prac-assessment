@@ -30,6 +30,7 @@ b. What is the role of the sigmoid function in logistic regression?
 - The sigmoid function turns any value into a number between 0 and 1. This helps the model decide if something belongs to a class (for example, if probability > 0.5, classify as “1”).
 
 c. List two advantages and two disadvantages of logistic regression.
+
 Advantages:
 1. It is simple and easy to understand.
 2. It works well when the classes are clearly separated.
