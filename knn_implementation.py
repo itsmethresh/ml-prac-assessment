@@ -1,3 +1,5 @@
+# PART 2 - KNN Implementation
+
 import math
 
 # --- BONUS: Normalization Function ---

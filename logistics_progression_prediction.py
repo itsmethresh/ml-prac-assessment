@@ -1,3 +1,5 @@
+# PART 2 - Logistics Progression Prediction
+
 import math
 
 def sigmoid(z):
