@@ -1,14 +1,14 @@
-# Test
+# PART 1 - Conceptual Questions
 1. Classification Basics
 a. Difference between classification and regression
 - Classification predicts a category or class, like “spam or not spam.” It deals with labels.
 - Regression predicts a number, like “house price” or “temperature.” It deals with continuous values.
 
 b. Examples
-Binary Classification (two classes):
+1. Binary Classification (two classes):
 - Predicting if an email is spam or not spam.
 - Predicting if a student will pass or fail.
-Multiclass Classification (more than two classes):
+2. Multiclass Classification (more than two classes):
 - Predicting the type of animal (cat, dog, bird).
 - Predicting a grade level (A, B, C, D, F).
 
