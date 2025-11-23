@@ -1,18 +1,24 @@
-# PART 2 - Logistics Progression Prediction
-
 import math
 
 def sigmoid(z):
     return 1 / (1 + math.exp(-z))
 
-# Example model output
+def logistic_regression_prediction(z, threshold=0.5):
+    # Compute probability using sigmoid
+    prob = sigmoid(z)
+
+    # Classification decision
+    if prob >= threshold:
+        decision = 1
+    else:
+        decision = 0
+
+
+    # Output
+    print("Linear output z:", z)
+    print("Probability:", prob)
+    print("Predicted class:", decision)
+
+# Example
 z = 1.72
-
-prob = sigmoid(z)
-print("Probability:", prob)
-
-# Decision threshold = 0.5
-if prob >= 0.5:
-    print("Class: 1")
-else:
-    print("Class: 0")
+logistic_regression_prediction(z)
